@@ -1,0 +1,58 @@
+/*  
+body, #frame, #container, #header, #navigation, #footer, #feature, #mainCol, #subCol, #extraCol, .content {position: static; text-align: left; text-indent: 0; background: White; color: Black; border-color: Black; width: auto; height: auto; display: block; float: none; min-height: 0; margin: 0; padding: 0;}
+ 
+body {
+	background: White;
+	font-size: 10pt !important;
+	color: Black;
+	padding: 0 3%;
+	}
+ 
+.hide, .nav {
+	display: none !important;
+	}
+ 
+a:link, a:visited {
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+.L img, .R img, #me img, #you img {width: 99%;}
+#word h2 em {clear: both;}
+*/
+
+body {font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif; background: #f6efe1; color: #333; text-align: center; font-size: 100%; line-height: 1.5em;}
+		#frame {text-align: left; width: 48em; margin: 3em auto; background: #fdf8f4; padding: 2em 6em; border-top: 2em solid #252421; position: relative;}
+		.nav {position: absolute; top: 1em; right: 2em; text-align: right; }
+		.nav ul, .nav li {list-style: none; display: inline; margin: 0; padding: 0;}
+		.nav a {text-transform: uppercase; background: none; border: none; margin: 0 0.25em 0 0; font-size: 87.5%; font-weight: bold; padding: 0.5em 0.75em;}	
+		.nav a:hover {background: #f6efe1;}
+		.nav .selected a {background: #333; color: #fdf8f4;}	
+		p {line-height: 1.5em; margin: 0 0 1.5em;}	
+		#work {clear: both;}
+		#me, #you, .L, .R {float: left; width: 47%;}
+		#me, .L {float: right;}
+		.L, .R {text-align: center;}
+		a {text-decoration: none; color: #333; background: #FFF; border-bottom: 2px solid #f5dfac;}
+		a:hover {color: #333; background: #f8efd4; border: none;}
+		h1 {font-size: 2.5em; line-height: 1em; margin: 1.111em 0 .3em; font-weight: bold;}
+		h2 {font-size: 2em; line-height: 1.25em; margin: 1.125em 0 .375em; font-weight: normal;}
+		h3 {font-size: 1.5em; line-height: 1.25em; margin: 1.5em 0 .5em; font-weight: bold;}
+		.contents h3 { padding: 1em 0; border-top: 1em solid #f6efe1;}
+		h4 {font-size: 1.1667em; line-height: 1.5em; margin: 1.929em 0 0;}
+		.contents h4 { font-weight: bold; text-transform: lowercase; font-variant: small-caps;}
+		strong {font-weight: bold;}
+		acronym, abbr {font-variant: small-caps; text-transform: lowercase; font-weight: bold;}
+		.center {text-align: center;}
+		#work h2 em {font-style: normal; background: #f6efe1; display: block; padding: 0.25em;}
+		blockquote {background: #f6efe1; border-left: 1em solid #f5dfac; margin: 0 1em 1.5em; padding: 1.5em 2em; font-style: italic; font-size: 1.1em;}
+		cite {display: block; text-align: right; font-style: normal; font-weight: bold; font-size: 0.8em;}	
+		.large {font-size: larger;}	
+		.small {font-size: smaller;}
+		#contact { width: 24em; margin: 0 auto; border: 1em solid #f6efe1; padding: 0.25em 1.5em 1em;}
+		.right{float: right; margin: 0 0 0.5em 0.5em;}
+		.photo {border: 0.5em solid #FFF;}
+		.clear {clear: both;}
+
+		

@@ -1,2 +1,166 @@
-Portfolio Page (may have portfolio1 extension later on)
-With embedded PDF / PPT
+<!DOCTYPE HTML>
+<html>
+		<head>
+					<title> Paul Apivat Portfolio </title>
+					<!--FancyZoom.com scripts  -->
+					<script type="text/javascript" src="lib.js"></script>
+					<script src="/js-global/FancyZoom.js" type="text/javascript"></script>
+					<script src="/js-global/FancyZoomHTML.js" type="text/javascript"></script>
+					<link rel="stylesheet" type="text/css" href="portfolio.css">
+		</head>
+
+
+			<body id="#" onload="setupZoom()">
+						<div id="ZoomSpin" style="position: absolute; left: 283px; top: 2313.5px; visibility: hidden; z-index: 525;"><img id="SpinImage" src="/images-global/zoom/zoom-spin-1.png"></div>
+
+						<div id="ZoomBox" style="position: absolute; left: 512px; top: 2337px; visibility: hidden; z-index: 499; opacity: 0;"><img src="i/bfb.jpg" id="ZoomImage" border="0" style="box-shadow: rgba(0, 0, 0, 0) 0px 5px 25px; display: block; width: 360px; height: 360px; cursor: pointer;"><div id="ZoomClose" style="position: absolute; left: -15px; top: -15px; visibility: hidden; opacity: 1;"><img src="/images-global/zoom/closebox.png" width="30" height="30" border="0" style="cursor: pointer;"></div></div>
+
+						<div id="ZoomCapDiv" style="position: absolute; visibility: hidden; margin-left: auto; margin-right: auto; z-index: 501;"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="right"><img src="/images-global/zoom/zoom-caption-l.png" width="13" height="26" style="display: block;"></td><td background="/images-global/zoom/zoom-caption-fill.png" id="ZoomCaption" valign="middle" style="font-size: 14px; font-family: Helvetica; font-weight: bold; color: rgb(255, 255, 255); text-shadow: rgb(0, 0, 0) 0px 2px 4px; white-space: nowrap;"></td><td><img src="/images-global/zoom/zoom-caption-r.png" width="13" height="26" style="display: block;"></td></tr></tbody></table></div>
+
+						<!-- div id="ZoomSpin"></div>
+						<div id="ZoomBox"></div>
+						<div id="ZoomCapDiv"></div -->
+
+					<div id="frame">
+						<h1><a href="#contact"><img src="photo/Apivat_Hanvongse.jpg" alt="Paul Apivat" class="photo right" /></a><a href="#contact" rel="external" title="Email me">Hi, I&#8217;m Paul.</a></h1>		
+						<h2>I'd love to be a product developer &#8212; especially for IWT. I think we should talk.</h2>
+						<ul class="nav">
+							<li class="selected"><a href="/svn/">Introduction</a></li>
+							<li><a href="/svn/backpack.html">Mini Websites</a></li>
+							<li><a href="/resume.html">Resum&#233;</a></li>
+						</ul>
+						<div class="clear"></div>
+						<div class="contents" id="me">
+							<h3><em>How I can help</em></h3>
+							<h4>I develop products</h4>
+							<p>I&#8217;m a ...  <acronym title="Cascading Style Sheets">CSS</acronym> as I am by the .... I think that <em>&#8220;Designed by XYZ &#8221;</em> is the most brilliant thing to ever appear on a package.</p>
+							<h4>Things I love</h4>
+							<p>I have been called a &#8220;serial....&#8221; ... one&#8217;s creativity into. I learn...teach myself javascript through building <a href="http://paulapivat.github.io/" rel="external" title="paulapivat.github.io"> mini-websites </a>...movies?... though I&#8217;m really trying.</p>
+							<h4>What I do</h4>
+							<p>I&#8217;ve created... <a href="http://phdpurpose.tumblr.com/" rel="external" title="A Resource for Young Scholars">PhD Purpose, a resource for young scholars</a>. We make some pretty <a href="#product">great products</a>, too. We have an amazing team of designers, we <a href="http://37signals.blogs.com/products/2007/11/element-fusion-.html" rel="external" title="Element Fusion uses Basecamp to manage its line of web-based products and client projects">use</a> and admire IWTs&#8217; products, and we try our best to make customers happy. I&#8217;m the.... I am also in charge of..... I think we do a pretty good job, my <a href="#customer" rel="external" title="LightCMS case studies">customers seem to think so, too</a>.</p>
+							<p>....but I want to <em>learn</em> more and get better.....</p>			
+						</div>
+						<div class="contents" id="you">
+							<h3><em>Let&#8217;s talk about what you want</em></h3>
+							<h4>You are the best</h4>
+							<p>You are IWT. You make <a href="http://www.iwillteachyoutoberich.com/products/" rel="external" title="IWT">world class products</a>, you <a href="http://www.iwillteachyoutoberich.com/insiders-kit/dreamjob/" rel="external" title="Dream Job">help people find their dream jobs</a>, help people optimize their psychology<a href="http://www.iwillteachyoutoberich.com/successtriggers/" rel="external" title="Success Triggers"> and help people lead richer lives</a>. </p>
+							<h4>You need the best ...</h4>
+							<p>You need a <strong>rock star</strong>. You need somebody that will tell you <strong>&#8220;no&#8221;</strong>, that will fight for an idea, and that won&#8217;t challenge years of what IWT has established as the way to build online products.</p>
+							<p>I&#8217;ll be honest. ....sounds like a dream to work for IWT. ...makes me say &#8220;right on&#8221; and ...sound exactly like the kind of place a I could soar.  Who wouldn&#8217;t covet such an amazing opportunity? I certainly do, but it&#8217;s not all fun and games &#8212; this is a tough challenge. Developing the next generation of IWT products will invite an incredible amount of scrutiny from thousands of users and bloggers. This is a position that requires a <strong>empathy</strong>, <strong>focus</strong>, and <strong>prioritization</strong>.</p>
+							<h4>I&#8217;m that guy</h4>
+							<p>I didn&#8217;t make this page lightly, .... <strong>I love a challenge</strong>. I love the idea of working with people that are brilliant; whom I admire and respect. I know what it means to work together to make something great. And I look forward to making IWT better by my addition. I want to learn from you and I want to teach you and I want to learn things together. </p>
+						</div>
+						
+						<div class="clear"></div>
+						<div id="work">
+							<h2 class="center"><em>I think IWT is that next challenge.</em></h2>
+							<h3 id="product">Products</h3>
+							<p>Here are some things I designed that I&#8217;m pretty proud of. For most of them I created the website from start to finish including client consultation, design, <acronym title="Extensible Hypertext Markup Language">XHTML</acronym>/<acronym title="Cascading Style Sheets">CSS</acronym>, interactive elements (Flash and Javascript), <acronym title="Content Management System">CMS</acronym> integration, and page build.</p>
+							<div class="L">
+								<p><a href="#"><img src="#" alt="Icebrrg" /></a><br >
+									<strong>Product 1</strong><br >
+									Description Here
+								</p>
+								<p><a href="photo/screen2c.png"><img src="photo/screen2.png" alt="Water" /></a><br >
+									<strong>Product 2</strong><br >
+									Description Here
+								</p>
+								<p><a href="i/gw.jpg"><img src="i/gw_sm.jpg" alt="GreyWolf" /></a><br >
+									<strong>Product 3</strong><br >
+									Description Here
+								</p>
+								<p><a href="i/gsb.jpg"><img src="i/gsb_sm.jpg" alt="GSB" /></a><br >
+									<strong>Product 4</strong><br >
+									Description Here
+								</p>
+							</div>
+							<div class="R">
+								<p><a href="i/ef.jpg"><img src="i/ef_sm.jpg" alt="Element Fusion" /></a><br >
+									<strong>Product 5</strong><br >
+									Description Here
+								</p>
+								<p><a href="i/bfb.jpg"><img src="i/bfb_sm.jpg" alt="Big File Box" /></a><br >
+									<strong>Product 6</strong><br >
+									Description Here
+								</p>
+								<p><a href="i/snu.jpg"><img src="i/snu_sm.jpg" alt="SNU" /></a><br >
+									<strong>Product 7</strong><br >
+									Description Here
+								</p>
+								<p><a href="i/heart.jpg"><img src="i/heart_sm.jpg" alt="Hearts for Hearing" /></a><br >
+									<strong>Product 8</strong><br >
+									Description Here
+								</p>
+							</div>
+
+							<div class="pdf"> 
+									<object data="Portfolio_1.0.pdf" type="application/pdf" width="100%" height="700px">
+ 
+							  	<p>It appears you don't have a PDF plugin for this browser.
+							  	No biggie... you can <a href="Portfolio_1.0.pdf">click here to
+							  	download the PDF file.</a></p>
+							  
+									</object>
+							</div>
+							<div class="clear"></div>
+							<h3 id="customer">What people say about me</h3>
+								<p>Just a few kind words from some of the great people I have had the pleasure of helping.</p>
+											<blockquote>
+												<p>&#8220;Paul's key strength is he knows how to bring the best out of you while guiding you through the admission application process. He asks the right questions to help you unlock your potential step by step: from a blank paper to a complete Statement of Purpose. Moreover, he can also help prepare you for the interview session as well.</p> 
+
+												<p>I recommended him to several students who applied to top schools and universities in the U.S. All of them were satisfied with his coaching sessions, and of course, they were all admitted into their prospective institutions. Indeed I am one of his success cases and I have been successfully admitted into the doctoral program at Columbia University. 
+
+												Thank you so much, Paul. &#8221;</p>
+												<a href="https://www.linkedin.com/in/chaiwinij"><cite>Bank Apichai Chaiwinij</cite></a>
+											</blockquote>
+											
+											<blockquote>
+												<p>&#8220;I really have to thank Paul so much for his great help on my doctoral application. He is truly knowledgable and gave me constant, constructive feedback on my Statement of Purpose. He knows exactly what the admission committee are looking for and is able to bring my true potential to standout among all applicants. Paul gave me an analysis of my writing in depth. He identified the strengths and the points of improvement on my application. His advice has enhanced my Statement of Purpose immensely.</p> <p>Paul, thanks again for your help.&#8221;</p>
+												<a href="https://www.linkedin.com/in/sawaros"><cite>Sawaros (Sam) Thanapornsangsuth</cite></a>
+											</blockquote>			
+											
+											<blockquote>
+											<p>&#8220;I had Paul helped me revise my SOP for my master's degree application and his constructive comments became very helpful. His reviews ranged from broad concepts of my SOP to details of sentence structures. Those comments helped me reflect back on my message, and in the end, greatly enhance the content of which I tried to convey.</p>
+
+											<p>For every written piece, especially for non-native speakers like me, it's very important to have peer reviews along the way to give comments with fresh perspectives. I would recommend Paul to anyone who's in the process of writing their SOP's or other pieces.&#8221;</p>
+
+											 <a href="https://th.linkedin.com/in/wan-chantavilasvong-349546a3/en"><cite>Wan Chantavilasvong</cite></a>
+											</blockquote>			
+											
+											<blockquote>
+												<p>&#8220;I wanted everyone to know that Kaizania (our SA dev team) was so
+												  impressed with the web design for Billboard. Their executives came in
+												  to specifically look at the app once some of the modules were placed 
+												  within the &#8220;skin&#8221;.</p><p>
+												  They asked me to tell E-F (and particularly Jason Z) that this is one
+												  of the best UIs they have seen. Very impressed.&#8221;</p>
+												<cite>Element Fusion Customer</cite>
+											</blockquote>		
+											
+											<blockquote>
+												<p>&#8220;Just wanted to say that I really appreciate all of your extra efforts as you have worked with SemGroup. You have shown the highest level of professionalism in all responses and have done an excellent job. With an organization as large are SemGroup, you have handle every request from all of the committee members with no hesitation. And I think their IT guy really likes you.</p><p>
+
+												I know that they will be a long-term customer, because of their great experience in round one. Thank you so much.</p><p>
+
+												You ROCK!&#8221;</p>
+												<cite>Element Fusion Sales Consultant</cite>
+											</blockquote>			
+										<div id="contact">	
+											<h3><img src="i/jz2.jpg" alt="Jason Zimdars" class="right" />Let&#8217;s talk.</h3>
+											<p><strong class="large">Paul Apivat</strong><br />
+											<a href="https://th.linkedin.com/in/apivath">th.linkedin.com/in/apivath</a><br />
+												Resum&#233;? <a href="/resume.html">Get it here.</a></p>
+												<p class="small">I also have a <a href="http://stream.jasonzimdars.com" title="my website">blog</a> and online <a href="/portfolio" title="my website">portfolio</a> that I never update. The cobbler&#8217;s kids are shoeless, you know?</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+									<script type="text/javascript">
+											var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+											document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+											</script>
+
+
+			</body>
+
+
+</html>
